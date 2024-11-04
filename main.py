@@ -92,7 +92,7 @@ def echo(update, context):
 
 
 def main():
-    updater = Updater("5243519049:AAEWBMDT8nE2qy2vZYVy3eXDZ_Pc2UyKwGU", use_context = True)
+    updater = Updater("token", use_context = True)
     dp = updater.dispatcher
     text_handler = MessageHandler(Filters.text, echo)
 
